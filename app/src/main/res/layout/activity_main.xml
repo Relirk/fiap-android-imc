@@ -13,15 +13,15 @@
         android:layout_weight="0.5"
         android:background="@color/backgroundTopColor"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="@dimen/second_container_padding">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/title_imc"
             android:textAlignment="center"
-            android:textColor="#FFF"
-            android:textSize="32sp"
+            android:textColor="@color/title_color"
+            android:textSize="@dimen/title_text_size"
             android:textStyle="bold|italic" />
 
         <LinearLayout
@@ -41,15 +41,15 @@
 
                 <TextView
                     style="@style/label_form_middle"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="@dimen/text_view_altura_margin_start"
                     android:text="@string/height_text_view" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginTop="@dimen/edit_text_container_margin_top"
+                android:layout_marginBottom="@dimen/edit_text_container_margin_bottom"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -90,7 +90,7 @@
             android:id="@+id/tvIMC"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Seu indice é: 30"
+            android:text="@string/result_peso"
             android:textAlignment="center"
             android:textSize="22sp"
             android:textStyle="bold" />
@@ -101,17 +101,18 @@
             android:layout_height="match_parent"
             android:layout_above="@+id/tvIMCStatus"
             android:layout_below="@+id/tvIMC"
-            android:src="@drawable/masc_ideal" />
+            android:src="@drawable/masc_default"
+            android:contentDescription="@string/image_description" />
 
         <TextView
             android:id="@+id/tvIMCStatus"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:text="Peso Ideal"
+            android:text=""
             android:textAlignment="center"
             android:textColor="#000"
-            android:textSize="22sp"
+            android:textSize="@dimen/status_peso_text_size"
             android:textStyle="bold" />
 
     </RelativeLayout>

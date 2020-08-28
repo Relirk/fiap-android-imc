@@ -11,5 +11,6 @@
     <color name="buttonTextColor">@color/backgroundTopColor</color>
     <color name="buttonBackgroundColor">#fefc7e</color>
     <color name="buttonStrokeColor">#EEE</color>
+    <color name="title_color">#FFF</color>
 
 </resources>

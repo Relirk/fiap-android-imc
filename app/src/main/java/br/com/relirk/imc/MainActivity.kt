@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.content.ContextCompat
+import br.com.relirk.imc.extensions.format
 import br.com.relirk.imc.watchers.DecimalTextWatcher
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -33,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
     @SuppressLint("SetTextI18n")
     private fun configuraIMC(imc: Double, drawableId: Int, stringId: Int) {
-        tvIMC.text = getString(R.string.resultado_imc, imc)
+        tvIMC.text = getString(R.string.resultado_imc, imc.format(2))
         ivIMCStatus.setImageDrawable(
             ContextCompat.getDrawable(this, drawableId)
         )

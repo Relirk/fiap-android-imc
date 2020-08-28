@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_peso_text_size">22sp</dimen>
+    <dimen name="edit_text_container_margin_bottom">8dp</dimen>
+    <dimen name="edit_text_container_margin_top">8dp</dimen>
+    <dimen name="text_view_altura_margin_start">8dp</dimen>
+    <dimen name="title_text_size">32sp</dimen>
+    <dimen name="second_container_padding">16dp</dimen>
+</resources>

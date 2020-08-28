@@ -1,4 +1,5 @@
 <resources>
+    <!-- TÍTULOS -->
     <string name="app_name">IMC</string>
     <string name="title_imc">Calculadora IMC</string>
 
@@ -20,5 +21,9 @@
     <string name="obesidade_grau_iii">Você está com Obesidade Grau III</string>
 
     <!-- Resultados IMC -->
-    <string name="resultado_imc">O seu IMC é: %1$f</string>
+    <string name="resultado_imc">O seu IMC é: %1$s</string>
+    <string name="result_peso">Digite seu peso, sua altura e clique em calcular para saber o seu índice de massa corporal</string>
+    <string name="result_status">Peso Ideal</string>
+    <string name="image_description">Status de peso</string>
+
 </resources>
