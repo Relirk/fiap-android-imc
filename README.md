@@ -1,15 +1,15 @@
 # FIAP IMC
 <p align="left">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Relirk/fiap_android_imc">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Relirk/fiap-android-imc">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Relirk/fiap_android_imc">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Relirk/fiap-android-imc">
   
-  <a href="https://github.com/Relirk/fiap_android_imc/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Relirk/fiap_android_imc">
+  <a href="https://github.com/Relirk/fiap-android-imc/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Relirk/fiap-android-imc">
   </a>
 
-  <a href="https://github.com/Relirk/fiap_android_imc/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/Relirk/fiap_android_imc">
+  <a href="https://github.com/Relirk/fiap-android-imc/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/Relirk/fiap-android-imc">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
